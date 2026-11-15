@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Короткие видео и учёба</title>
+  <style>
+    /* Общий вид страницы */
+    body { margin: 0; font: 18px/1.6 Arial, sans-serif; color: #23333d; background: #f3f6f6; }
+    header { background: #195d63; color: white; text-align: center; padding: 32px 20px; }
+    h1 { font-size: 34px; line-height: 1.2; margin: 10px 0; }
+    header p { margin: 8px 0; }
+    nav { text-align: center; padding: 15px; background: #e0eeee; }
+    nav a { display: inline-block; margin: 4px 12px; }
+    a { color: #145d68; text-underline-offset: 3px; }
+    a:focus-visible { outline: 3px solid #bd6b19; outline-offset: 4px; }
+    main { max-width: 850px; margin: auto; padding: 0 20px; }
+    section { padding: 28px 0; border-bottom: 1px solid #cedbdd; }
+    h2 { font-size: 26px; color: #195d63; margin: 0 0 12px; }
+    p { margin: 10px 0; }
+    li { margin: 8px 0; }
+    table { width: 100%; border-collapse: collapse; margin: 18px 0; background: white; }
+    caption { text-align: left; font-size: 16px; margin-bottom: 8px; }
+    th, td { padding: 9px 12px; border: 1px solid #c4d4d7; text-align: left; }
+    th { background: #e0eeee; }
+    .conclusion { background: #e0eeee; padding: 14px 18px; border-left: 4px solid #195d63; }
+    .note { font-size: 15px; color: #52636d; }
+    .files a { display: inline-block; margin: 4px 16px 4px 0; }
+    footer { max-width: 850px; margin: auto; padding: 25px 20px; font-size: 15px; }
+    @media (max-width: 600px) {
+      h1 { font-size: 28px; }
+      h2 { font-size: 23px; }
+      body { font-size: 17px; }
+      th, td { padding: 8px; }
+    }
+  </style>
+</head>
+<body>
+  <!-- Название и меню сайта -->
+  <header>
+    <p>Учебный проект · КАЗАТИУ</p>
+    <h1>Короткие видео и учёба</h1>
+    <p>Сколько времени занимают TikTok, Reels и Shorts?</p>
+  </header>
+  <nav aria-label="Разделы сайта">
+    <a href="#problem">Проблема</a>
+    <a href="#data">Данные</a>
+    <a href="#solutions">Решения</a>
+    <a href="#sources">Источники</a>
+  </nav>
+
+  <main>
+    <!-- 1. Объясняем, зачем выбрали тему -->
+    <section id="problem">
+      <h2>1. В чём проблема?</h2>
+      <p>Заходим посмотреть пару роликов, а остаёмся надолго. Время на задания сокращается, и учёба откладывается.</p>
+      <p><strong>Наша цель:</strong> узнать, сколько времени студенты смотрят короткие видео и как это связано с учёбой.</p>
+    </section>
+
+    <!-- 2. Показываем таблицу из опубликованного исследования -->
+    <section id="data">
+      <h2>2. Что показывают данные?</h2>
+      <table>
+        <caption>Опрос 502 студентов в Китае, публикация 2026 года — <a href="https://doi.org/10.3389/fhumd.2026.1872842">источник № 1</a></caption>
+        <thead><tr><th scope="col">Просмотр в день</th><th scope="col">Студентов</th></tr></thead>
+        <tbody>
+          <tr><td>Менее 1 часа</td><td>10</td></tr>
+          <tr><td>1–2 часа</td><td>198</td></tr>
+          <tr><td>2–4 часа</td><td>94</td></tr>
+          <tr><td>4–6 часов</td><td>162</td></tr>
+          <tr><td>Более 6 часов</td><td>38</td></tr>
+        </tbody>
+        <tfoot><tr><th scope="row">Всего</th><td>502</td></tr></tfoot>
+      </table>
+      <p class="conclusion"><strong>Главный результат:</strong> самый частый ответ — 1–2 часа в день. Его выбрали 198 студентов, или 39,4%.</p>
+      <p>Другое исследование выявило связь проблемного просмотра роликов с откладыванием учебных дел. Это связь, а не доказательство того, что ролики сами по себе ухудшают оценки.</p>
+      <p class="note">Это опубликованные данные, а не опрос нашей группы. По ним нельзя судить обо всех студентах Казахстана. Отдельных цифр для TikTok, Reels и Shorts здесь нет.</p>
+    </section>
+
+    <!-- 3. Предлагаем простые действия -->
+    <section id="solutions">
+      <h2>3. Что можно сделать?</h2>
+      <ol>
+        <li>Посмотреть своё экранное время за неделю.</li>
+        <li>Поставить лимит просмотра и отключить лишние уведомления.</li>
+        <li>Во время выполнения заданий убрать телефон подальше.</li>
+        <li>Через неделю сравнить время просмотра и количество выполненных заданий.</li>
+      </ol>
+      <p class="conclusion"><strong>Пример:</strong> на 30 минут роликов меньше в день — это 3,5 часа свободного времени в неделю.</p>
+      <p>Наш вывод: важно замечать, сколько времени уходит на ролики, и выделять отдельное время для учёбы.</p>
+    </section>
+
+    <!-- 4. Даём ссылки на источники и материалы -->
+    <section id="sources">
+      <h2>4. Источники и материалы</h2>
+      <ul>
+        <li><a href="https://doi.org/10.3389/fhumd.2026.1872842">Deng и Ye, 2026</a> — время просмотра, 502 студента, раздел 3.1.</li>
+        <li><a href="https://doi.org/10.3389/fpsyg.2023.1298361">Xie и соавторы, 2023</a> — связь с откладыванием учебных дел, 1047 студентов.</li>
+        <li><a href="https://support.google.com/youtube/answer/16671528?hl=ru">Справка YouTube</a> — как установить лимит Shorts.</li>
+      </ul>
+      <p class="files">
+        <a href="files/report.docx" download>Отчёт Word</a>
+        <a href="files/analysis.xlsx" download>Таблица Excel</a>
+        <a href="files/slides.pptx" download>Презентация</a>
+        <a href="files/data.csv" download>Данные CSV</a>
+      </p>
+    </section>
+  </main>
+  <footer>
+    <p><strong>КАЗАТИУ · Группа 02-095-26-46</strong><br>Преподаватель: Сабирова Ж.М.</p>
+    <p>Участники: Сейсенбаева Сабина, Тастубаева Анеля, Тұрғанбай Толғанай, Филина Елизавета, Сағынышұлы Қайса.</p>
+  </footer>
+</body>
+</html>
